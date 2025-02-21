@@ -13,8 +13,8 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
-    use Billable;
     use HasApiTokens;
+    use Billable;
 
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory;
