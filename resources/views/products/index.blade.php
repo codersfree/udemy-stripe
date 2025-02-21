@@ -1,7 +1,6 @@
 <x-app-layout>
 
     <x-container class="py-12">
-        
 
         <div class="grid grid-cols-3 gap-6">
 
@@ -25,6 +24,10 @@
                 </div>
             @endforeach
 
+        </div>
+
+        <div class="mt-8">
+            {{ $products->links() }}
         </div>
 
     </x-container>
